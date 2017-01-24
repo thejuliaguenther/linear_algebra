@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
 def caluculate_magnitude(vect):
     """
@@ -14,4 +14,4 @@ def caluculate_magnitude(vect):
     total = 0
     for i in xrange(len(vect)):
         total += (vect[i] * vect[i])
-    return math.sqrt(total)
+    return sqrt(total)
